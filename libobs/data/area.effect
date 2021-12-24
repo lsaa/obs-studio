@@ -4,7 +4,7 @@ uniform float2 base_dimension_i;
 uniform texture2d image;
 
 sampler_state textureSampler {
-	Filter    = Linear;
+	Filter    = None;
 	AddressU  = Clamp;
 	AddressV  = Clamp;
 };
